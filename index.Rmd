@@ -135,7 +135,7 @@ GitHubでコードとhtmlを公開する方法
 
 ![github_setting_2](images/github_setting_2.PNG)
 
-28. SourceのSelect folderを/(root)から/docsに変更
+28. SourceのSelect folderを/(root)から/docsに変更してSaveをクリック
 
 ![github_setting_3](images/github_setting_3.PNG)
 
