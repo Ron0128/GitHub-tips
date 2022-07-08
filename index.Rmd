@@ -131,21 +131,25 @@ GitHubでコードとhtmlを公開する方法
 
 ![github_setting_1](images/github_setting_1.PNG)
 
-27. SourceをNoneからmasterに変更（ここではmainに名前を変更している）
+27. SourceのBranchをNoneからmasterに変更（ここではmainに名前を変更している）
 
 ![github_setting_2](images/github_setting_2.PNG)
 
-28. URLをコピー
+28. SourceのSelect folderを/(root)から/docsに変更
 
 ![github_setting_3](images/github_setting_3.PNG)
 
-29. リポジトリのホーム画面に戻って歯車のアイコンをクリック
+29. URLをコピー
 
 ![github_setting_4](images/github_setting_4.PNG)
 
-30. Websiteに28でコピーしたURLをペーストしてSave changesをクリック
+30. リポジトリのホーム画面に戻って歯車のアイコンをクリック
 
 ![github_setting_5](images/github_setting_5.PNG)
+
+31. Websiteに28でコピーしたURLをペーストしてSave changesをクリック
+
+![github_setting_6](images/github_setting_6.PNG)
 
 ## 完成
 
@@ -159,6 +163,6 @@ htmlが開けるようになりました
 
 ## RStudioの設定
 
-31. 20，21の手順でindex.htmlをdocsに移動（index.htmlはdocsに入らず作成される）
+32. 20，21の手順でindex.htmlをdocsに移動（index.htmlはdocsに入らず作成される）
 
-32. 22～25を実行
+33. 22～25を実行
