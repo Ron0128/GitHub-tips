@@ -65,7 +65,7 @@ GitHubでコードとhtmlを公開する方法
 
 ![rstudio_project_4](images/rstudio_project_4.PNG)
 
-11. Repository URLに6でコピーしたHTTPSをペースト
+11. Repository URLに6でコピーしたHTTPSをペーストしてProject directory nameにプロジェクト名を入れる（3のリポジトリ名と同じでよい）
 
 ![rstudio_project_5](images/rstudio_project_5.PNG)
 
