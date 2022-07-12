@@ -25,139 +25,141 @@ GitHubでコードとhtmlを公開する方法
 
 1. [GitHub](https://github.co.jp/)でアカウントを作成
 
-![github_top](images/github_top.PNG)
+![Figure1.GitHubの設定1](images/github_top.PNG)
 
 2. RepositoriesのNewをクリック
 
-![github_repositories_new](images/github_repositories_new.PNG)
+![Figure2.GitHubの設定2](images/github_repositories_new.PNG)
 
 3. Repository nameにリポジトリ名を入力
 
-![github_create_repository_1](images/github_create_repository_1.PNG)
+![Figure3.GitHubの設定3](images/github_create_repository_1.PNG)
 
 4. 公開する場合はPublic（公開しない場合はPrivateに変更）
 
-![github_create_repository_2](images/github_create_repository_2.PNG)
+![Figure4.GitHubの設定4](images/github_create_repository_2.PNG)
 
 5. スクロールしてCreate repositoryをクリック
 
-![github_create_repository_3](images/github_create_repository_3.PNG)
+![Figure5.GitHubの設定5](images/github_create_repository_3.PNG)
 
 6. HTTPSをコピー
 
-![github_https](images/github_https.PNG)
+![Figure6.GitHubの設定6](images/github_https.PNG)
 
 ## RStudioの設定
 
 7. RStudioを起動してProjectをクリック
 
-![rstudio_project_1](images/rstudio_project_1.PNG)
+![Figure7.RStudioの設定1](images/rstudio_project_1.PNG)
 
 8. New Projectをクリック
 
-![rstudio_project_2](images/rstudio_project_2.PNG)
+![Figure8.RStudioの設定2](images/rstudio_project_2.PNG)
 
 9. Version Controlをクリック
 
-![rstudio_project_3](images/rstudio_project_3.PNG)
+![Figure9.RStudioの設定3](images/rstudio_project_3.PNG)
 
 10. Gitをクリック
 
-![rstudio_project_4](images/rstudio_project_4.PNG)
+![Figure10.RStudioの設定4](images/rstudio_project_4.PNG)
 
 11. Repository URLに6でコピーしたHTTPSをペーストしてProject directory nameにプロジェクト名を入れる（3のリポジトリ名と同じでよい）
 
-![rstudio_project_5](images/rstudio_project_5.PNG)
+![Figure11.RStudioの設定5](images/rstudio_project_5.PNG)
 
 12. New Fileのアイコンをクリック
 
-![rstudio_setting_1](images/rstudio_setting_1.PNG)
+![Figure12.RStudioの設定6](images/rstudio_setting_1.PNG)
 
 13. R Markdownをクリック
 
-![rstudio_setting_2](images/rstudio_setting_2.PNG)
+![Figure13.RStudioの設定7](images/rstudio_setting_2.PNG)
 
 14. R Markdownのタイトルを入力してOKをクリック
 
-![rstudio_setting_3](images/rstudio_setting_3.PNG)
+![Figure14.RStudioの設定8](images/rstudio_setting_3.PNG)
 
 15. Save current documentのアイコンをクリック
 
-![rstudio_setting_4](images/rstudio_setting_4.PNG)
+![Figure15.RStudioの設定9](images/rstudio_setting_4.PNG)
 
 16. ファイル名にindexと入力してSaveをクリック
 
-![rstudio_setting_5](images/rstudio_setting_5.PNG)
+![Figure16.RStudioの設定10](images/rstudio_setting_5.PNG)
 
 17. New Folderをクリック
 
-![rstudio_setting_6](images/rstudio_setting_6.PNG)
+![Figure17.RStudioの設定11](images/rstudio_setting_6.PNG)
 
 18. new folder name にdocsと入力してOKをクリック
 
-![rstudio_setting_7](images/rstudio_setting_7.PNG)
+![Figure18.RStudioの設定12](images/rstudio_setting_7.PNG)
 
 19. Knitをクリック（Filesにindex.htmlができる）
 
-![rstudio_setting_8](images/rstudio_setting_8.PNG)
+![Figure19.RStudioの設定13](images/rstudio_setting_8.PNG)
 
 20. index.htmlにチェックを入れてMoreをクリックしMoveをクリック
 
-![rstudio_setting_9](images/rstudio_setting_9.PNG)
+![Figure20.RStudioの設定14](images/rstudio_setting_9.PNG)
 
 21. docsを選択してOpenをクリック
 
-![rstudio_setting_10](images/rstudio_setting_10.PNG)
+![Figure21.RStudioの設定15](images/rstudio_setting_10.PNG)
 
 22. GitをクリックしてCommitをクリック
 
-![rstudio_setting_11](images/rstudio_setting_11.PNG)
+![Figure22.RStudioの設定16](images/rstudio_setting_11.PNG)
 
 23. 必要なファイルにチェックを入れる（Ctrl + Aを押しながらチェックを入れれば全部選択）
 
-![rstudio_setting_12](images/rstudio_setting_12.PNG)
+![Figure23.RStudioの設定17](images/rstudio_setting_12.PNG)
 
 24. Commit messageに説明を入力（first, correctedなど）してCommitをクリック
 
-![rstudio_setting_13](images/rstudio_setting_13.PNG)
+![Figure24.RStudioの設定18](images/rstudio_setting_13.PNG)
 
 25. Pushをクリック
 
-![rstudio_setting_14](images/rstudio_setting_14.PNG)
+![Figure25.RStudioの設定19](images/rstudio_setting_14.PNG)
 
 ## GitHubの設定
 
 26. SettingsをクリックしてPagesをクリック
 
-![github_setting_1](images/github_setting_1.PNG)
+![Figure26.GitHubの設定7](images/github_setting_1.PNG)
 
 27. SourceのBranchをNoneからmasterに変更（ここではmainに名前を変更している）
 
-![github_setting_2](images/github_setting_2.PNG)
+![Figure27.GitHubの設定8](images/github_setting_2.PNG)
 
 28. SourceのSelect folderを/(root)から/docsに変更してSaveをクリック
 
-![github_setting_3](images/github_setting_3.PNG)
+![Figure28.GitHubの設定9](images/github_setting_3.PNG)
 
 29. URLをコピー
 
-![github_setting_4](images/github_setting_4.PNG)
+![Figure29.GitHubの設定10](images/github_setting_4.PNG)
 
 30. リポジトリのホーム画面に戻って歯車のアイコンをクリック
 
-![github_setting_5](images/github_setting_5.PNG)
+![Figure30.GitHubの設定11](images/github_setting_5.PNG)
 
 31. Websiteに28でコピーしたURLをペーストしてSave changesをクリック
 
-![github_setting_6](images/github_setting_6.PNG)
+![Figure31.GitHubの設定12](images/github_setting_6.PNG)
 
 ## 完成
 
 htmlのリンクがつきました
-![complete_1](images/complete_1.PNG)
+
+![Figure32.完成1](images/complete_1.PNG)
 
 htmlが開けるようになりました
-![complete_2](images/complete_2.PNG)
+
+![Figure33.完成2](images/complete_2.PNG)
 
 # リポジトリを更新するとき
 
